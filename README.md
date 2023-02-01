@@ -15,7 +15,7 @@ In order to solve this problem, two key deliverables were suggested:
 All this with the purpose of stabilizing the number of requests submitted through time, which would improve service levels and eventually translate into a lower number of PCCs received.
 
 ## **Objectives**
-- To provide the local government of Boyacá with analytical tools that can help them handle the growing demand for passports in the region and make data-driven decisions.
+- To provide the institution with analytical tools that can help them handle the growing demand for passports in the region and make data-driven decisions.
 - To forecast the weekly demand of passports in the institution.
 - To present the results obtained in an easily accessible dashboard for the entity's employees.
 
