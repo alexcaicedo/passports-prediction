@@ -1,6 +1,5 @@
 # Import libraries
-from dash import html , dcc
-import dash_bootstrap_components as dbc
+from dash import html, dcc
 import plotly.graph_objects as go
 # Import the codebase components
 from codebase.year_on_year import year_on_year

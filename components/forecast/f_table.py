@@ -1,6 +1,5 @@
 # Import libraries
-from dash import html , dcc
-import dash_bootstrap_components as dbc
+from dash import html
 from dash import dash_table
 # Import the codebase components
 from codebase.prophet_predictions import predict_prophet

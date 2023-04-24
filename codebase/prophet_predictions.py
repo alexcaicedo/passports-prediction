@@ -33,8 +33,9 @@ def predict_prophet(f_paquete, start_date, forecast_end):
     pm_future = pm_future[pm_future['ds']>=start_date][["ds",'P']].reset_index(drop=True)
     pm_future.set_index('ds',inplace=True)
     pm_future.loc[first_dow(my_year, my_month,6)] = 0
-    pm_future = pm_future.asfreq(freq='W', fill_value=0)
+    # pm_future = pm_future.asfreq(freq='W', fill_value=0)
     pm_future.reset_index(inplace=True)
+    pm_future = pm_future.iloc[:62, :]
     
     pm_forecast = pm_model.predict(pm_future)
        

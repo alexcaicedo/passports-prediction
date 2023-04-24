@@ -1,6 +1,5 @@
 # Import libraries
-import plotly.graph_objects as go
-from dash import html , dcc
+from dash import html, dcc
 import plotly.express as px 
 # Import the codebase components
 from codebase.status_unclaimed import status_unclaimed

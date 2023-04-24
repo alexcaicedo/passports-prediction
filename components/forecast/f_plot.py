@@ -1,8 +1,6 @@
 # Import libraries
 import plotly.graph_objects as go
-import dash_bootstrap_components as dbc
-import dash
-from dash import html, dcc, callback, Input, Output
+from dash import html, dcc
 # Import the codebase components
 from codebase.prophet_predictions import predict_prophet
 from codebase.preprocessing import pre_process_paquete
